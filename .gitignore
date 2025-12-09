@@ -1,0 +1,48 @@
+/obj
+/Temp
+/Library
+/UserSettings
+/Logs
+/status
+/Builds
+
+.DS_Store
+.vscode
+.vs
+*.svd
+*.userprefs
+*.csproj
+*.csproj.meta
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.orig.meta
+.~lock*
+.idea
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# StyleCop generated violations
+StyleCopViolations.xml
+
+# LibreOffice Generated Files
+*.xlsx#
+
+AdjustPostBuildAndroidLog.txt
+AdjustPostBuildiOSLog.txt
+
+/ProjectSettings/GoogleAarExplodeCache.xml
+
+/.vsconfig
+/MemoryCaptures
+/Profiling
+/CodeCoverage
+/Assets/BuildReports
+/Assets/BuildReports.meta
