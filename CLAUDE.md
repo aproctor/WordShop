@@ -92,3 +92,9 @@ Key packages (see `Packages/manifest.json` for complete list):
 ## Current State
 
 This is a minimal project setup. The only custom code is tutorial boilerplate (`Readme.cs`). The project is configured with modern Unity features (URP, new Input System) and ready for game development to begin.
+
+
+## Rules
+Avoid creating "setup" MonoBehaviors that create objects in the scene.
+Use Unity-MCP to create objects, scenes and other Unity assets instead.
+If you must generate a Unity asset, don't use duplicate GUIDs for new game objects
